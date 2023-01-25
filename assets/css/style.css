@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+    color: #000;   
+}
+
+/*Heading and logo*/
+
+#logo {
+    color: #49c5bc;
+}
+
+#logo div {
+    height: 65px;
+    width: 65px;
+    border: 6px solid #49c5bc;
+    border-radius: 50%;
+    float: left;
+    font-size: 250%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0 15px 50px;
+}
+
+#logo i {
+    margin-top: -8px;
+}
+
+
+h1 {
+    font-family: /*'Mulish'*/'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 4px;
+    height: 65px;
+    width: 120px;
+    float: left;
+    margin: 15px 0 15px 25px;
+}
+
+/*Navigation links*/
+
+#menu {
+    display: flex;
+    flex-direction: row;
+    float: right;
+    font-size: 110%;
+    letter-spacing: 4px;
+    margin-right: 25px;
+}
+
+#menu li {
+    list-style-type: none;
+    margin-right: 25px;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    line-height: 105px;
+    color: #282828;
+}
+
+#menu a:hover {
+    border-bottom: 2px solid #49c5bc;
+}
+
+.active {
+    border-bottom: 1px solid #282828;
+}
+
+img {
+    width: 100%;
+}
