@@ -17,7 +17,7 @@ body {
 /*Heading and logo*/
 
 #logo {
-    color: #49c5bc;
+    color: #1c8491;
 }
 
 #logo div {
@@ -39,7 +39,7 @@ body {
 
 
 h1 {
-    font-family: /*'Mulish'*/'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: 22px;
     font-weight: 900;
     line-height: 25px;
@@ -74,13 +74,45 @@ h1 {
 }
 
 #menu a:hover {
-    border-bottom: 2px solid #49c5bc;
+    border-bottom: 2px solid #1c8491;
+    font-weight: 800;
+    color: #1c8491;
 }
 
 .active {
     border-bottom: 1px solid #282828;
 }
 
-img {
+/*hero image*/
+
+#hero-outer {
+    position: relative;
+}
+
+#hero-image {
+    clear: both;
+    height: 600px;
     width: 100%;
+    background: url('../images/pexels-alexandre-saraiva-carniato-1920_1280.jpg') no-repeat 50% 87%;
+    background-size: cover;
+}
+
+#text-cover {
+    background-color: rgb(73, 197, 188, 0.7);
+    color: #fff;
+    font-size: 100%;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 4px;
+    padding: 15px;
+    width: 350px;
+    height: 120px;
+    bottom: 30px;
+    right: 70px;
+    border-radius: 5px;
+    position: absolute;
+}
+
+#text-cover h2{
+    padding-bottom: 15px;
+    text-transform: uppercase;
 }
