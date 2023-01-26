@@ -86,7 +86,9 @@ h1 {
 /*hero image*/
 
 #hero-outer {
+    clear: both;
     position: relative;
+    
 }
 
 #hero-image {
