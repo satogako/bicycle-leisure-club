@@ -118,3 +118,59 @@ h1 {
     padding-bottom: 15px;
     text-transform: uppercase;
 }
+
+/*About club*/
+
+#about {
+    height: 600px;
+    margin: 30px;
+}
+
+#about section {
+    margin-bottom: 30px;
+}
+
+#about h2 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 210%;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.about-block {
+    display: flex;
+    flex-direction: row;
+    margin: 0 25px;
+}
+
+.icon-text-block {
+    margin: 0 25px;
+    width: 30%;
+}
+
+.icon-text-block i {
+    float: left;
+    height: 110px;
+    width: 50px;
+    font-size: 200%;
+    color: #49c5bc;
+}
+
+.icon-text-block h3 {
+    margin-bottom: 15px;
+    font-size: 140%;
+}
+
+.icon-text-block p {
+    font-size: 110%;
+}
+
+.about-bottom {
+    padding-top: 30px;
+} 
+
+footer {
+    background-color: #9c9c9c;
+}
