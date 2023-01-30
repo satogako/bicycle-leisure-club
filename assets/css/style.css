@@ -126,10 +126,6 @@ h1, .logo h2 {
     margin: 30px;
 }
 
-#about section {
-    margin-bottom: 30px;
-}
-
 #about h2 {
     font-family: 'Mulish', sans-serif;
     font-size: 210%;
@@ -152,7 +148,7 @@ h1, .logo h2 {
 
 .icon-text-block i {
     float: left;
-    height: 110px;
+    height: 152px;
     width: 50px;
     font-size: 200%;
     color: #49c5bc;
@@ -286,14 +282,26 @@ footer .logo div {
     display: flex;
     flex-direction: row;
     position: absolute;
-    left: 50px;
+    left: 64px;
     bottom: 200px;
+    list-style-type: none;
 }
 
+#social-networks i {
+    font-size: 200%;
+    color: #fff;
+    margin: 0 14px;
+}
+
+#social-networks i:hover {
+    color: #49c5bc;
+}
 
 #all-r-reserved {
+    color:rgb(255, 255, 255, 0.3);
     position: absolute;
-    left: 50px;
-    bottom: 90px;
+    bottom: 80px;
+    width: 100%;
+    text-align: center;
 }
 
