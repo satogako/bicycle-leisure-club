@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <a id="logo" href="index.html">
+        <a class="logo" href="index.html">
             <div><i class="fa-solid fa-person-biking"></i></div>
             <h1>BICYCLE LEISURE CLUB</h1>
         </a>
@@ -116,82 +116,84 @@
         </section>
     </main>
     <footer role="contentinfo">
-        <div>
-            <div>
-                <div><i class="fa-solid fa-person-biking"></i></div>
-                <h2>BICYCLE LEISURE CLUB</h2> 
+        <div id="footer-inner">
+            <div class="footer-inner-block">
+                <div class="logo">
+                    <div><i class="fa-solid fa-person-biking"></i></div>
+                    <h2>BICYCLE LEISURE CLUB</h2> 
+                </div>
+                <div>
+                    <h3>Shop, Rental and Workshop</h3>
+                    <table id="open-hour">
+                        <tr>
+                            <th></th>
+                            <th>Open</th>
+                            <th>Close</th>
+                        </tr>
+                        <tr>
+                            <td>Mon-Fri</td>
+                            <td><time>10:00</time></td>
+                            <td><time>19:30</time></td>
+                        </tr>
+                        <tr>
+                            <td>Sat-Sun</td>
+                            <td><time>8:00</time></td>
+                            <td><time>18:00</time></td>
+                        </tr>
+                    </table>
+                </div>
             </div>
-            <div>
-                <h3>Shop, Rental and Workshop</h3>
+            <div id="footer-center-bl"class="footer-inner-block">  
+                <h3>Weekend Race</h3>
                 <table>
                     <tr>
-                        <th></th>
-                        <th>Open</th>
-                        <th>Close</th>
+                        <th>Saturday</th>
+                        <th class="right-text-table">Sunday</th>
                     </tr>
                     <tr>
-                        <td>Mon-Fri</td>
-                        <td>10:00</td>
-                        <td>19:30</td>
+                        <td>Off Road</td>
+                        <td class="right-text-table">Asphalt</td>
                     </tr>
                     <tr>
-                        <td>Sat-Sun</td>
-                        <td>8:00</td>
-                        <td>18:00</td>
+                        <td>50km</td>
+                        <td class="right-text-table">100km</td>
+                    </tr>
+                    <tr>
+                        <td><time>8:00 Am</time></td>
+                        <td class="right-text-table"><time>8:00 Am</time></td>
                     </tr>
                 </table>
             </div>
-        </div>
-        <div>  
-            <h3>Weekend race</h3>
-            <table>
-                <tr>
-                    <th>Saturday</th>
-                    <th>Sunday</th>
-                </tr>
-                <tr>
-                    <td>Off Road</td>
-                    <td>Asphalt</td>
-                </tr>
-                <tr>
-                    <td>50km</td>
-                    <td>100km</td>
-                </tr>
-                <tr>
-                    <td><time>8:00 Am</time></td>
-                    <td><time>8:00 Am</time></td>
-                </tr>
-            </table>
-        </div>
-        <div id="form-section">
-            <form id="sinup-form" action="registered.html">
-                <h3>Weekend Race Registration Form</h3>
-                <label for="fname">First Name</label>
-                <input id="fname" name="first_name" type="text" required>
+            <div id="footer-right-bl" class="footer-inner-block">
+                <form id="signup-form" action="registered.html">
+                    <h3>Weekend Race Registration</h3>
+                    <label for="fname">First Name</label>
+                    <input class="text-input" id="fname" name="first_name" type="text" required>
 
-                <label for="lname">Last Name</label>
-                <input id="lname" name="last_name" type="text" required>
+                    <label for="lname">Last Name</label>
+                    <input class="text-input" id="lname" name="last_name" type="text" required>
 
-                <label for="email">Email Address</label>
-                <input id="email" name="email_address" type="email" required>
+                    <label for="email">Email Address</label>
+                    <input class="text-input" id="email" name="email_address" type="email" required>
 
-                <label for="off-road">Off Road</label>
-                <input id="off-road" name="race_option" type="radio" value="off-road" required>
-                <label for="asphalt">Asphalt</label>
-                <input id="asphalt" name="race_option" type="radio" value="asphalt">
+                    <label id="drop-down-name" for="rent">Is rent a bicycle?</label>
+                    <select id="rent" name="rent_bicycle" required>
+                        <option value="">-- --</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
 
-                <label for="rent">Is rent a bicycle?</label>
-                <select id="rent" name="rent_bicycle" required>
-                    <option value="">--Please chose--</option>
-                    <option value="yes">Yes</option>
-                    <option value="no">No</option>
-                </select>
+                    <label for="off-road">Off Road</label>
+                    <input id="off-road" name="race_option" type="radio" value="off-road" required>
+                    <label for="asphalt">Asphalt</label>
+                    <input id="asphalt" name="race_option" type="radio" value="asphalt">
 
-                <input type="submit" value="Go to the Race">
-            </form>
+                    <input class="race-button" type="submit" value="Go to the Race">
+                </form>
+            </div>
         </div>
         <div>
-           <ul>
+           <ul id="social-networks">
                 <li>
                     <a href="http://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (open in a new tab)">
                         <i class="fa-brands fa-square-facebook"></i>
@@ -214,7 +216,7 @@
                 </li>
            </ul>
         </div>
-        <div>
+        <div id="all-r-reserved">
             <p>© Bicycle Leisure Club 2023. All right reserved</p>
         </div>
     </footer>
