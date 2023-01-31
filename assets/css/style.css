@@ -305,3 +305,12 @@ footer .logo div {
     text-align: center;
 }
 
+/*Rent page*/
+
+#rent-image {
+    clear: both;
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-team-evelo-1920-1280.jpg') no-repeat 50% 30%;
+    background-size: cover;
+}
