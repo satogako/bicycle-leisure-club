@@ -122,7 +122,6 @@ h1, .logo h2 {
 /*About club*/
 
 #about {
-    height: 600px;
     margin: 30px;
 }
 
@@ -307,10 +306,46 @@ footer .logo div {
 
 /*Rent page*/
 
+/*main image and text cover*/
 #rent-image {
     clear: both;
     height: 600px;
     width: 100%;
     background: url('../images/pexels-team-evelo-1920-1280.jpg') no-repeat 50% 30%;
     background-size: cover;
+}
+
+/*about -rent*/
+#about-rent {
+    width: 100%;
+}
+
+.content-conteiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 30px 0 30px;
+}
+
+.content-conteiner p {
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    width: 25%;
+    padding: 0 10px 0;
+    margin: auto 0;
+    text-align: justify;
+    font-size: 130%;
+}
+
+.border-image {
+    padding: 10px 10px 5px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.rent-image {
+    height: 200px;
+    border-radius: 50%;
 }
