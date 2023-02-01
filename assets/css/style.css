@@ -349,3 +349,25 @@ footer .logo div {
     height: 200px;
     border-radius: 50%;
 }
+
+/*Gallery page*/
+
+/*photos*/
+#photos {
+    clear: both;
+    line-height: 0px; 
+    column-count: 4;
+    column-gap: 0px;
+    box-sizing: border-box;
+}
+
+#photos img {
+    height: 250px;
+    width: 100%;
+}
+
+/*footer*/
+
+#footer-inner {
+    margin-top: 0;
+}
