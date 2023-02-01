@@ -416,6 +416,7 @@ footer .logo div {
     .icon-text-block p {
     font-size: 110%;
     text-align: justify;
+    margin-left: 50px;
     }
 
     footer {
@@ -454,4 +455,76 @@ footer .logo div {
     #photos {
         column-count: 2;
     }
+ }
+
+ /*For screns size from 800px wide and down*/
+ @media screen and (max-width: 800px) {
+
+    h1 {
+        margin-right: 60px;
+    }
+
+    #menu {
+        float: left;
+        margin-left: 30px;
+        letter-spacing: 2px;
+    }
+
+    #menu a {
+        line-height: 50px;
+    }
+
+    #menu li {
+        margin-right: 10px
+    }
+
+    .footer-inner-block {
+        width: 78%;
+    }
+
+    #footer-center-bl {
+        text-align: left;
+        padding-top: 0;
+    }
+
+    #footer-center-bl table {
+        margin: 0;
+    }
+
+    .content-conteiner {
+        flex-wrap: wrap;
+    }
+
+ }
+
+    /*For screns size from 720px wide and down*/
+ @media screen and (max-width: 720px) {
+
+    .logo div {
+        margin-left: 25px;
+    }
+
+    #text-cover {
+        left: 0;
+        letter-spacing: 0px;
+        width: 250px;
+        font-size: 90%;
+      }
+
+    .content-conteiner {
+       margin-bottom: 50px;
+    }
+
+    .content-conteiner p {
+        width: 80%;
+        margin-right: 25px 0 15px;
+        border-left: none;
+        border-right: none;
+    }
+
+    .rent-image {
+        height: 167px;
+    }
+
+        
  }
