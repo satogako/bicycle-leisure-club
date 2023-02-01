@@ -379,7 +379,7 @@ footer .logo div {
  /*For lager to medium screens size from 1200px wide and down*/
  @media screen and (max-width: 1200px) {
     #about {
-        height: 1200px;
+        height: auto;
     }
 
     .about-block {
@@ -399,5 +399,59 @@ footer .logo div {
 
     .race-button {
         width: auto;
+    }
+ }
+
+ /*For medium screen size from 950px wide and down*/
+ @media screen and (max-width: 950px) {
+    
+    .icon-text-block {
+        margin: 0 0 15px 0;
+    }
+
+    .icon-text-block i {
+        height: 90px;
+    }
+
+    .icon-text-block p {
+    font-size: 110%;
+    text-align: justify;
+    }
+
+    footer {
+        height: auto;
+    }
+
+    #footer-inner {
+        margin: 0;
+        flex-wrap: wrap;
+    }
+
+    .footer-inner-block {
+        width: 40%;
+        margin: 45px 30px 0;
+    }
+
+    #footer-right-bl {
+        justify-content: flex-start;
+    }
+
+    #social-networks {
+        position: static;
+        margin: 45px 15px;
+        justify-content: center;
+    }
+
+    #all-r-reserved {
+        position: static;
+    }
+
+    .content-conteiner p {
+        width: 40%;
+        text-align: left;
+    }
+
+    #photos {
+        column-count: 2;
     }
  }
