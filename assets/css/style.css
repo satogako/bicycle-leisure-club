@@ -365,8 +365,7 @@ footer .logo div {
 }
 
 #photos img {
-    height: 250px;
-    width: 100%;
+    width: 100%
 }
 
 /*footer*/
@@ -374,3 +373,31 @@ footer .logo div {
 #footer-inner {
     margin-top: 0;
 }
+
+ /*media queries*/
+
+ /*For lager to medium screens size from 1200px wide and down*/
+ @media screen and (max-width: 1200px) {
+    #about {
+        height: 1200px;
+    }
+
+    .about-block {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .icon-text-block {
+        width: 100%;
+        margin: 0 0 30px 0;
+    }
+
+    .icon-text-block i {
+        height: 75px;
+    }
+
+    .race-button {
+        width: auto;
+    }
+ }
