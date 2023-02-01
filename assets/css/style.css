@@ -517,7 +517,7 @@ footer .logo div {
 
     .content-conteiner p {
         width: 80%;
-        margin-right: 25px 0 15px;
+        margin: 25px 0 15px;
         border-left: none;
         border-right: none;
     }
