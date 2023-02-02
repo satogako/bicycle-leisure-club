@@ -1,108 +1,196 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# BICYCLE LEISURE CLUB
+The Bicycle Leisure Club is a  landing website page for men and women looking for active recreation. The Bicycle Leisure Club offers scenic off-road bike races, asphalt road races and organizes customized bike tours. The club offers: bicycle rental, bicycle repair school, workshop, bicycle and accessories shop, courier delivery. 
 
-Welcome satogako,
+Users of this website will be able to find all the information they need about Bicycle Leisure Club: about the club, race schedule, hours of operation of additional services and registration form. This site is aimed at people over 18 years old who are looking for active recreation.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![screenshot responsive site](assets/images/responsive-site.jpg)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+## Home page
 ---
 
-Happy coding!
+* Navigation
+    - Featured at the top of the page, the navigation shows the club name in the left corner: Bicycle Leisure Club also works as a link to the home page.
+
+    - Other navigation links are located on the right: Home, Rent, Gallery, which link to individual pages of the site, and the Sign up link directs the user to the registration form.
+
+    - The club header font and logo contrast in color with the background and other text.
+
+    - The navigation clearly tells the user the name of the club and website and makes the different sections of
+    information easy to find.
+
+    ![screenshot navigation menu](assets/images/menu-nav.jpg)
+    
+
+
+* Backgroung image and cover text section
+    - The image shows the club's cyclists during the competition.
+
+    - The background is placed on the image to clearly separate the text and the photo with the greeting and the address of the club.
+
+    - This section provides the user with clear, intuitive information about what the club does and where it is located.
+
+    ![background image and cover text](assets/images/background-image-cover-text.jpg)
+    
+
+
+* Why choose us and our services section
+    - The Why Chose Us section provides information about what makes it a special club and why people choose it.
+
+    - Our Services section shows the user important information that the club offers to its members.
+
+    - All paragraphs are separated by icons that contrast with the text of the paragraph for the user's intuitive understanding of what is written in it.
+
+    ![about club section](assets/images/about-club.jpg)
+    
+
+
+* Footer section
+    - This section allows the user to register, understand the opening hours of the club and when the bike race will take place.
+
+    - The chapter is divided into three parts. Individual elements contrast in color with the text to better separate these parts. These elements are located along an imaginary line that directs the user's eye to the registration form.
+
+    - Social network icons and the registration button change color when hovering over them.
+
+    - The Footer section is the same on all three pages of the site.
+
+    ![footer](assets/images/footer.jpg)
+    
+
+
+## Rent page
+---
+
+
+* Backgroung image and cover text section
+    - The background of the image gives a clear impression to the user that people are happy with the bike rental.
+
+    - The image features a contrasting background with text informing the user of a free bike ride to encourage the user to use this service.
+
+    ![rent background image and cover text](assets/images/rent-background-image-adn-cover-text.jpg)
+    
+
+
+* Rental Office
+    - This section is designed as a list with photos
+
+    - The text describes the image as briefly as possible so that the user can quickly understand the content of the section and use the service without hesitation.
+
+    ![about rental office](assets/images/about-renta-office.jpg)
+    
+
+
+## Gallery page
+---
+
+* Photos section
+    - This section shows twenty photos of club members
+
+    - This section gives a clear understanding that the club has been around for a long time and further encourages the user to sign up for membership.
+
+    ![photo section](assets/images/photos-section.jpg)
+
+
+## Testing
+---
+* I tested that this page works in different browsers: Chrome, Firefox, Opera.
+
+* I confirmed that this project is responsive, looks good and functions on all standard screen sizes using the
+    devtools device toolbar.
+
+* I confirmed that the navigation, header, about club, about rent bicycles, sign up, and opening time are all readable and easy to
+    understand.
+
+* I have confirmed that the form works: requires entries in every field, will only accept an email in the email field,
+    and the submit button works.
+
+
+### Mistakes
+
+
+* Fixed bugs
+
+- Before deploying the project to Git Hub, I found that the Sign up link only worked on one page.
+
+- Checked that I was using the same #signup-form identifier in all the HTML files for the link.
+
+- I solved the problem by providing Sign up on each page with a separate identifier from the footer section.
+
+
+
+### Validator Testing
+
+* HTML
+    - No errors were returned when passing through the official W3C validator
+
+* CSS
+    - No errors were found when passing through the official Jigsaw) validator
+
+* Accessibility
+    - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse
+
+     ![test lighthouse](assets/images/Test-lighthouse.jpg)
+     
+
+
+### Unfixed Bugs
+
+No unfixed bugs
+
+
+## Deployment
+---
+
+ * The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+    - In the GitHub repository, navigate to the Settings tab
+
+    - From the left, in the Code and automation section, select Page
+
+    - From the source section drop-down menu, select the Master Branch
+
+    - Once the master branch has been selected, the page provided the link to the completed website.
+
+The live link can be found here - [Bicycle Leisure Club](https://satogako.github.io/bicycle-leisure-club/)
+
+
+
+
+## Credits
+---
+
+#### Content
+
+* The code to make the gallery photos section  was taken from the Cl [Love Running Project](https://satogako.github.io/love-running/).
+
+#### Media
+
+* The images was taken from [Pexels](https://www.pexels.com/).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
