@@ -113,11 +113,15 @@ Users of this website will be able to find all the information they need about B
 
 * Fixed bugs
 
-- Before deploying the project to Git Hub, I found that the Sign up link only worked on one page.
+    - Before deploying the project to Git Hub, I found that the Sign up link only worked on one page.
 
-- Checked that I was using the same #signup-form identifier in all the HTML files for the link.
-
-- I solved the problem by providing Sign up on each page with a separate identifier from the footer section.
+    - Checked that I was using the same #signup-form identifier in all the HTML files for the link.
+        ```
+        <li>
+        <a href="#signup-form">Sign Up</a>
+        </li>
+        ```
+     - I solved the problem by providing Sign up on each page with a separate identifier from the footer section.
 
 
 
