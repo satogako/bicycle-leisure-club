@@ -1,4 +1,7 @@
-# BICYCLE LEISURE CLUB
+[![logo bicycle leisure club](assets/images/Bicycle-leisure-club-logo.jpg)](https://satogako.github.io/bicycle-leisure-club/)
+
+---
+
 The Bicycle Leisure Club is a  landing website page for men and women looking for active recreation. The Bicycle Leisure Club offers scenic off-road bike races, asphalt road races and organizes customized bike tours. The club offers: bicycle rental, bicycle repair school, workshop, bicycle and accessories shop, courier delivery. 
 
 Users of this website will be able to find all the information they need about Bicycle Leisure Club: about the club, race schedule, hours of operation of additional services and registration form. This site is aimed at people over 18 years old who are looking for active recreation.
@@ -124,7 +127,7 @@ Users of this website will be able to find all the information they need about B
     - No errors were returned when passing through the official W3C validator
 
 * CSS
-    - No errors were found when passing through the official Jigsaw) validator
+    - No errors were found when passing through the official Jigsaw validator
 
 * Accessibility
     - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse
